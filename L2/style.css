@@ -1,0 +1,70 @@
+
+:root {
+	--main-yellow: #ffcb74;
+	--main-moss: #b1b493;
+	--main-teal: #4f8a8b;
+	--main-black: #07031a;
+	--main-white: #faeee7;
+}
+body{
+  background: rgb(245,245,245);
+  color: var(--main-black);
+  font-size: 25px;
+  font-family: 'Poppins';
+}
+h1{
+  font-family:'Poppins', sans-serif;
+  color: var(--main-teal);
+  font-weight: lighter;
+  font-size: 40x;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 17x;
+}
+a {
+  color: var(--main-yellow);
+}
+a:hover {
+  text-decoration: none;
+  color: var(--main-moss);
+}
+#banner {
+  text-align: center;
+  background-image: url("https://unsplash.it/1000/600");
+  background-size: cover;
+  padding: 200px 10;
+  color: var(--main-white);
+  text-align: center;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: var(--main-white);
+  font-size: 50px;
+}
+#banner p {
+  color: var(--main-white);
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background: var(--main-black);
+  color: var(--main-yellow);
+}
+.card{
+  padding: 50px;
+  font-weight: lighter;
+}
+#footer a {
+  color: var(--main-white);
+  font-size: 15px;
+}
+#footer a:hover {
+  color: var(--main-moss);
+}
+.btn btn-outline-info {
+
+}
